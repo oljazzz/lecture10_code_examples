@@ -2,7 +2,7 @@ from multiprocessing import Process, Queue
 
 
 def worker(q):
-    q.put('hello1')
+    q.put('hello')
 
 
 if __name__ == '__main__':

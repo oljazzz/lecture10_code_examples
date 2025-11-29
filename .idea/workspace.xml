@@ -4,25 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d18e577-66d2-424d-a48b-16739f898cd2" name="Changes" comment="example2">
-      <change afterPath="$PROJECT_DIR$/11_files/example1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_files/example2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_files/manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_files/manager2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_files/pipe_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_files/processes_without_lock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_files/queue_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_files/shared_memory.py" afterDir="false" />
+    <list default="true" id="5d18e577-66d2-424d-a48b-16739f898cd2" name="Changes" comment="examples for 11th lesson">
+      <change afterPath="$PROJECT_DIR$/11_files/queue_example2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asyncio_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/10_files/asyncio_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/combo4.py" beforeDir="false" afterPath="$PROJECT_DIR$/10_files/combo4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comparing_thread_with_asyncio.py" beforeDir="false" afterPath="$PROJECT_DIR$/10_files/comparing_thread_with_asyncio.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/download_urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/10_files/download_urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example1.py" beforeDir="false" afterPath="$PROJECT_DIR$/10_files/example1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example2_concurrent.py" beforeDir="false" afterPath="$PROJECT_DIR$/10_files/example2_concurrent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example2_sync.py" beforeDir="false" afterPath="$PROJECT_DIR$/10_files/example2_sync.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heavy_calculation.py" beforeDir="false" afterPath="$PROJECT_DIR$/10_files/heavy_calculation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resize_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/10_files/resize_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_files/example1.py" beforeDir="false" afterPath="$PROJECT_DIR$/11_files/example1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_files/queue_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/11_files/queue_example.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +65,10 @@
     "Python.manager2.executor": "Run",
     "Python.pipe_example.executor": "Run",
     "Python.queue_example.executor": "Run",
+    "Python.queue_example2.executor": "Run",
     "Python.resize_image.executor": "Run",
     "Python.shared_memory.executor": "Run",
+    "Python.sync_lock_example.executor": "Run",
     "Python.synchronization_lock.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -104,8 +92,8 @@
       <recent name="C:\Users\User\PycharmProjects\Lecture10\10_files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sync_lock_example">
-    <configuration name="manager2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.queue_example2">
+    <configuration name="example1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Lecture10" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,7 +107,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_files/manager2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_files/example1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pipe_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="example2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Lecture10" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,30 +130,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_files/pipe_example.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="processes_without_lock" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Lecture10" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11_files" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\User\PycharmProjects\Lecture10\11_files\processes_without_lock.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_files/example2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,6 +154,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_files/queue_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="queue_example2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lecture10" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11_files" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_files/queue_example2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sync_lock_example" />
-        <item itemvalue="Python.processes_without_lock" />
-        <item itemvalue="Python.pipe_example" />
+        <item itemvalue="Python.queue_example2" />
         <item itemvalue="Python.queue_example" />
-        <item itemvalue="Python.manager2" />
+        <item itemvalue="Python.example2" />
+        <item itemvalue="Python.example1" />
+        <item itemvalue="Python.sync_lock_example" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +237,7 @@
       <option name="presentableId" value="Default" />
       <updated>1763749558655</updated>
       <workItem from="1763749559817" duration="9569000" />
-      <workItem from="1764270414595" duration="3297000" />
+      <workItem from="1764270414595" duration="5957000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -267,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763754170231</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="examples for 11th lesson">
+      <option name="closed" value="true" />
+      <created>1764274016096</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764274016096</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,24 +283,27 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="example2" />
-    <option name="LAST_COMMIT_MESSAGE" value="example2" />
+    <MESSAGE value="examples for 11th lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="examples for 11th lesson" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Lecture10$example2_concurrent.coverage" NAME="example2_concurrent Coverage Results" MODIFIED="1763788496299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Lecture10$queue_example.coverage" NAME="queue_example Coverage Results" MODIFIED="1764272376366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_files" />
+    <SUITE FILE_PATH="coverage/Lecture10$queue_example.coverage" NAME="queue_example Coverage Results" MODIFIED="1764392965363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_files" />
     <SUITE FILE_PATH="coverage/Lecture10$resize_image.coverage" NAME="resize_image Coverage Results" MODIFIED="1763788791698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Lecture10$synchronization_lock.coverage" NAME="synchronization_lock Coverage Results" MODIFIED="1764273654701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_files" />
     <SUITE FILE_PATH="coverage/Lecture10$asyncio_example.coverage" NAME="asyncio_example Coverage Results" MODIFIED="1763788974751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Lecture10$shared_memory.coverage" NAME="shared_memory Coverage Results" MODIFIED="1764271494532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_files" />
     <SUITE FILE_PATH="coverage/Lecture10$comparing_thread_with_asyncio.coverage" NAME="comparing_thread_with_asyncio Coverage Results" MODIFIED="1763789195369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Lecture10$example2.coverage" NAME="example2 Coverage Results" MODIFIED="1764270960449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_files" />
+    <SUITE FILE_PATH="coverage/Lecture10$example2.coverage" NAME="example2 Coverage Results" MODIFIED="1764392883286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_files" />
+    <SUITE FILE_PATH="coverage/Lecture10$sync_lock_example.coverage" NAME="sync_lock_example Coverage Results" MODIFIED="1764273869462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_files" />
     <SUITE FILE_PATH="coverage/Lecture10$combo4.coverage" NAME="combo4 Coverage Results" MODIFIED="1763789417478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Lecture10$manager.coverage" NAME="manager Coverage Results" MODIFIED="1764271899828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_files" />
     <SUITE FILE_PATH="coverage/Lecture10$download_urls.coverage" NAME="download_urls Coverage Results" MODIFIED="1763750280678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Lecture10$manager2.coverage" NAME="manager2 Coverage Results" MODIFIED="1764272109648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_files" />
     <SUITE FILE_PATH="coverage/Lecture10$pipe_example.coverage" NAME="pipe_example Coverage Results" MODIFIED="1764272934985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_files" />
-    <SUITE FILE_PATH="coverage/Lecture10$example1.coverage" NAME="example1 Coverage Results" MODIFIED="1764270578695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_files" />
+    <SUITE FILE_PATH="coverage/Lecture10$example1.coverage" NAME="example1 Coverage Results" MODIFIED="1764392858797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_files" />
     <SUITE FILE_PATH="coverage/Lecture10$example2_sync.coverage" NAME="example2_sync Coverage Results" MODIFIED="1763788470336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Lecture10$heavy_calculation.coverage" NAME="heavy_calculation Coverage Results" MODIFIED="1763788665418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Lecture10$queue_example2.coverage" NAME="queue_example2 Coverage Results" MODIFIED="1764393300110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_files" />
   </component>
 </project>

@@ -1,7 +1,7 @@
 import multiprocessing
 
 
-def add_a_cube(new_list, q):
+def put_in_queue(new_list, q):
     for n in new_list:
         q.put(n)
 
@@ -17,7 +17,7 @@ if __name__ == "__main__":
     my_list = [1, 2, 3, 4]
     q = multiprocessing.Queue()
 
-    p1 = multiprocessing.Process(target=add_a_cube, args=(my_list, q))
+    p1 = multiprocessing.Process(target=put_in_queue, args=(my_list, q))
     p2 = multiprocessing.Process(target=print_queue, args=(q,))
 
     p1.start()
