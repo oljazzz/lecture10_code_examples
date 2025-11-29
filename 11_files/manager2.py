@@ -8,7 +8,7 @@ def inc(shared):
 if __name__ == '__main__':
     with Manager() as manager:
         shared = manager.dict(count=0)
-        procs = [Process(target=inc, args=(shared,)) for _ in range(5)]
+        procs = [Process(target=inc, args=(shared,)) for _ in range(10)]
         for p in procs: p.start()
         for p in procs: p.join()
         print(shared['count'])  # 5

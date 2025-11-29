@@ -8,7 +8,7 @@ def add_squared_num(x, new_list):
 
 if __name__ == '__main__':
     with multiprocessing.Manager() as manager:
-        data = manager.list([3, 4, 5])
+        data = manager.list([3, 4, 5, 8])
         new_x = 6
         new_x_2 = 7
         p1 = multiprocessing.Process(target=add_squared_num, args=(new_x, data))
