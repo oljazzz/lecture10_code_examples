@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d18e577-66d2-424d-a48b-16739f898cd2" name="Changes" comment="manager example">
-      <change afterPath="$PROJECT_DIR$/11_files/shared_memory_simple_example.py" afterDir="false" />
+    <list default="true" id="5d18e577-66d2-424d-a48b-16739f898cd2" name="Changes" comment="shared_memory_simple_example.py">
+      <change afterPath="$PROJECT_DIR$/tests/test_discount.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_math_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_mock_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest_examples/discount.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest_examples/math_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest_examples/mock_example.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +55,19 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for test1.TestAbsFunction.executor": "Run",
+    "Python tests.Python tests for test_math_utils.test_add_basic.executor": "Run",
+    "Python tests.Python tests for tests.test_discount.test_discount_basic.executor": "Run",
+    "Python tests.Python tests for tests.test_discount.test_discount_negative_percentage.executor": "Run",
+    "Python tests.Python tests for tests.test_discount.test_discount_over_100.executor": "Run",
+    "Python tests.Python tests for tests.test_discount.test_discount_zero_price.executor": "Run",
+    "Python tests.Python tests for tests.test_discount.test_discount_zero_price_not_allowed.executor": "Run",
+    "Python tests.Python tests for tests.test_math_utils.test_add_basic.executor": "Run",
+    "Python tests.Python tests for tests.test_math_utils.test_divide_negative.executor": "Run",
+    "Python tests.Python tests for tests.test_math_utils.test_divide_zero.executor": "Run",
+    "Python tests.Python tests for tests.test_math_utils.test_is_even.executor": "Run",
+    "Python tests.Python tests for tests.test_mock_example.test_get_user_mock.executor": "Run",
+    "Python tests.Python tests for unittest_examples.mock_example.test_get_user_mock.executor": "Run",
     "Python.another_pipe_example.executor": "Run",
     "Python.asyncio_example.executor": "Run",
     "Python.combo4.executor": "Run",
@@ -64,6 +82,7 @@
     "Python.manager2.executor": "Run",
     "Python.manager3.executor": "Run",
     "Python.pipe_example.executor": "Run",
+    "Python.processes_without_lock.executor": "Run",
     "Python.queue_example.executor": "Run",
     "Python.queue_example2.executor": "Run",
     "Python.resize_image.executor": "Run",
@@ -72,6 +91,7 @@
     "Python.sync_lock_example.executor": "Run",
     "Python.synchronization_lock.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -90,132 +110,98 @@
       <recent name="C:\Users\User\PycharmProjects\Lecture10\11_files" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\Lecture10\tests" />
       <recent name="C:\Users\User\PycharmProjects\Lecture10\10_files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.shared_memory_simple_example">
-    <configuration name="manager" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for tests.test_discount.test_discount_over_100">
+    <configuration name="Python tests for tests.test_discount.test_discount_basic" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Lecture10" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11_files" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_files/manager.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_discount.test_discount_basic&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="manager2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.test_discount.test_discount_negative_percentage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Lecture10" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11_files" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_files/manager2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_discount.test_discount_negative_percentage&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="manager3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.test_discount.test_discount_over_100" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Lecture10" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11_files" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_files/manager3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_discount.test_discount_over_100&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="shared_memory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.test_mock_example.test_get_user_mock" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Lecture10" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11_files" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_files/shared_memory.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_mock_example.test_get_user_mock&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="shared_memory_simple_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for unittest_examples.mock_example.test_get_user_mock" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Lecture10" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11_files" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_files/shared_memory_simple_example.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unittest_examples.mock_example.test_get_user_mock&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.shared_memory_simple_example" />
-        <item itemvalue="Python.shared_memory" />
-        <item itemvalue="Python.manager3" />
-        <item itemvalue="Python.manager2" />
-        <item itemvalue="Python.manager" />
+        <item itemvalue="Python tests.Python tests for tests.test_discount.test_discount_over_100" />
+        <item itemvalue="Python tests.Python tests for tests.test_discount.test_discount_negative_percentage" />
+        <item itemvalue="Python tests.Python tests for tests.test_discount.test_discount_basic" />
+        <item itemvalue="Python tests.Python tests for tests.test_mock_example.test_get_user_mock" />
+        <item itemvalue="Python tests.Python tests for unittest_examples.mock_example.test_get_user_mock" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +224,8 @@
       <option name="presentableId" value="Default" />
       <updated>1763749558655</updated>
       <workItem from="1763749559817" duration="9569000" />
-      <workItem from="1764270414595" duration="7638000" />
+      <workItem from="1764270414595" duration="8683000" />
+      <workItem from="1764869720455" duration="8988000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -288,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764394284470</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="shared_memory_simple_example.py">
+      <option name="closed" value="true" />
+      <created>1764395043782</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1764395043782</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +307,8 @@
     <MESSAGE value="example2 for Queue" />
     <MESSAGE value="pipe example" />
     <MESSAGE value="manager example" />
-    <option name="LAST_COMMIT_MESSAGE" value="manager example" />
+    <MESSAGE value="shared_memory_simple_example.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="shared_memory_simple_example.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Lecture10$example2_concurrent.coverage" NAME="example2_concurrent Coverage Results" MODIFIED="1763788496299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -321,12 +317,14 @@
     <SUITE FILE_PATH="coverage/Lecture10$resize_image.coverage" NAME="resize_image Coverage Results" MODIFIED="1763788791698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Lecture10$synchronization_lock.coverage" NAME="synchronization_lock Coverage Results" MODIFIED="1764273654701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_files" />
     <SUITE FILE_PATH="coverage/Lecture10$asyncio_example.coverage" NAME="asyncio_example Coverage Results" MODIFIED="1763788974751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Lecture10$processes_without_lock.coverage" NAME="processes_without_lock Coverage Results" MODIFIED="1764395058276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_files" />
     <SUITE FILE_PATH="coverage/Lecture10$shared_memory.coverage" NAME="shared_memory Coverage Results" MODIFIED="1764394455268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_files" />
     <SUITE FILE_PATH="coverage/Lecture10$manager3.coverage" NAME="manager3 Coverage Results" MODIFIED="1764394270044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_files" />
     <SUITE FILE_PATH="coverage/Lecture10$shared_memory_simple_example.coverage" NAME="shared_memory_simple_example Coverage Results" MODIFIED="1764394720257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_files" />
     <SUITE FILE_PATH="coverage/Lecture10$comparing_thread_with_asyncio.coverage" NAME="comparing_thread_with_asyncio Coverage Results" MODIFIED="1763789195369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Lecture10$example2.coverage" NAME="example2 Coverage Results" MODIFIED="1764392883286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_files" />
-    <SUITE FILE_PATH="coverage/Lecture10$sync_lock_example.coverage" NAME="sync_lock_example Coverage Results" MODIFIED="1764273869462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_files" />
+    <SUITE FILE_PATH="coverage/Lecture10$.coverage" NAME=" Coverage Results" MODIFIED="1764999586375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Lecture10$sync_lock_example.coverage" NAME="sync_lock_example Coverage Results" MODIFIED="1764395152297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_files" />
     <SUITE FILE_PATH="coverage/Lecture10$combo4.coverage" NAME="combo4 Coverage Results" MODIFIED="1763789417478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Lecture10$manager.coverage" NAME="manager Coverage Results" MODIFIED="1764393878047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_files" />
     <SUITE FILE_PATH="coverage/Lecture10$download_urls.coverage" NAME="download_urls Coverage Results" MODIFIED="1763750280678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
